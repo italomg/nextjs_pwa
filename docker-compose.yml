@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  development:
+    build: .
+    environment:
+      - NODE_ENV=development
+      - PORT=8080
+    ports:
+      - '8080:8080'
+    volumes:
+      - /app/node_modules
+      - .:/app
+    command: npm run dev

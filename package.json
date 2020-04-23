@@ -1,0 +1,32 @@
+{
+  "name": "nextjs_pwa",
+  "version": "1.0.0",
+  "description": "NextJS PWA",
+  "keywords": [
+    "NextJS",
+    "PWA"
+  ],
+  "author": "https://github.com/italomg",
+  "license": "MIT",
+  "repository": "italomg/nextjs_pwa",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.0",
+    "@material-ui/icons": "^4.5.1",
+    "next": "^9.3.2",
+    "next-offline": "^4.0.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^10.0.1",
+    "jest": "^25.1.0"
+  }
+}
